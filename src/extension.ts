@@ -17,7 +17,7 @@ export function activate(context: vscode.ExtensionContext) {
 		// The code you place here will be executed every time your command is executed
 
 		// Display a message box to the user
-		vscode.window.showInformationMessage('Hello World from touchify!');
+		vscode.window.showInformationMessage("Your touchbar interface for vscode has been updated");
 	});
 
 	context.subscriptions.push(disposable);
